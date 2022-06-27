@@ -6,12 +6,12 @@ import './index.scss'
 const Home = () => {
 
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = Array.from('lobodan')
+    const nameArray = Array.from('lobodan') // 文字列を配列に変換
     const jobArray = Array.from('web developer.')
 
     useEffect(() => {
         setTimeout(() => {
-           setLetterClass('text-animate-hover') 
+           setLetterClass('text-animate-hover') // 4秒後にクラス変更
         }, 4000);
     }, [])
 
