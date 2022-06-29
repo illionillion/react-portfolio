@@ -19,7 +19,7 @@ $primary-color: #ffd700;
 input, textarea{
   font-family: 'Helvetica Neue';
 }
-
+// 共通
 .loader-active {
   display: block;
   position: absolute;
@@ -30,6 +30,6 @@ input, textarea{
   bottom: 0;
   width: 50px;
   height: 50px;
-
-  // 2022/06/29 次回ここから
+  animation: fadeOut 1s 1s ;
+  animation-fill-mode: forwards;
 }
